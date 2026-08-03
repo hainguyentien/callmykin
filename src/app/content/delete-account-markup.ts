@@ -64,8 +64,7 @@ export const deleteAccountMarkup = String.raw`
       <ol>
         <li>Open the CallMyKin app on your device</li>
         <li>Go to <strong>Settings</strong> (tap the gear icon)</li>
-        <li>Scroll to the <strong>Danger zone</strong></li>
-        <li>Tap <strong>Delete Account</strong></li>
+        <li>In the <strong>Account</strong> section, tap <strong>Delete account</strong> below <strong>Change password</strong></li>
         <li>Read the deletion notice, type <strong>DELETE</strong>, and tap <strong>Delete forever</strong></li>
       </ol>
       <p>After confirmation, your CallMyKin account is permanently deleted and you are signed out.</p>

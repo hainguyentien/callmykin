@@ -162,7 +162,7 @@ export const privacyMarkup = String.raw`
         <li>Right not to be subject to automated decision-making</li>
       </ul>
       <p><strong>Withdrawing your consent:</strong> You have the right to withdraw your consent at any time by contacting us at <a href="mailto:callmykin89@gmail.com">callmykin89@gmail.com</a>.</p>
-      <p><strong>Account Information</strong><br>You can review or change account information in the app where available. To permanently delete your CallMyKin account and associated data, use Settings &gt; Delete account in the app or see our <a href="/delete-account">Delete Account</a> page.</p>
+      <p><strong>Account Information</strong><br>You can review or change account information in the app where available. To permanently delete your CallMyKin account and associated data, use Settings &gt; Account &gt; Delete account in the app or see our <a href="/delete-account">Delete Account</a> page.</p>
 
       <h2 id="DNT">11. Controls for Do-Not-Track Features</h2>
       <p>Most web browsers include a Do-Not-Track ('DNT') feature or setting. At this stage, no uniform technology standard for recognising and implementing DNT signals has been finalised. As such, we do not currently respond to DNT browser signals.</p>

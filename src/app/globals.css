@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --red-50: #FDEDEE;
+  --red-100: #FAD8DA;
+  --red-500: #DE1C24;
+  --red-600: #B3171D;
+  --red-800: #3A0202;
+  --grey-100: #E5E5EA;
+  --grey-500: #717176;
+  --yellow-soft: #FDF5D8;
+  --green: #008C36;
+  --green-soft: #D8F9E5;
+  --green-dark: #003615;
+  --bg: #F9F9F9;
+  --surface: #FFFFFF;
+  --border: #E5E5EA;
+  --text: #3A0202;
+  --text-2: #2C2C2E;
+  --text-3: #717176;
+  --font-display: Inter, "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@theme inline {
+  --color-red-50: var(--red-50);
+  --color-red-100: var(--red-100);
+  --color-red-500: var(--red-500);
+  --color-red-600: var(--red-600);
+  --color-red-800: var(--red-800);
+  --color-grey-100: var(--grey-100);
+  --color-yellow-soft: var(--yellow-soft);
+  --color-green: var(--green);
+  --color-green-soft: var(--green-soft);
+  --color-green-dark: var(--green-dark);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-2: var(--text-2);
+  --color-text-3: var(--text-3);
+  --font-sans: var(--font-display);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

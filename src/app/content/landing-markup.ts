@@ -196,15 +196,15 @@ export const landingMarkup = String.raw`
           </div>
 
           <div class="video-card fade-in">
-            <div class="video-card__thumb" data-youtube-id="Oc8mysDvC7k">
+            <div class="video-card__thumb" data-youtube-id="P4uYxyZQxps">
               <div class="video-card__placeholder">
                 <div class="video-card__play-ring">&#9654;</div>
                 <span class="video-card__coming">Coming Soon</span>
               </div>
             </div>
             <div class="video-card__info">
-              <h3>The Kitchen</h3>
-              <p>Too many aunties, one stove.</p>
+              <h3>The Hongbao Gauntlet</h3>
+              <p>Survive the red envelope interrogation.</p>
             </div>
           </div>
 

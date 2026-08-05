@@ -24,7 +24,7 @@ export const privacyMarkup = String.raw`
       <div class="container">
         <a href="/" class="legal-hero__back">&larr; Back to Home</a>
         <h1>Privacy Policy</h1>
-        <p class="legal-hero__updated">Last updated: July 31, 2026</p>
+        <p class="legal-hero__updated">Last updated: August 5, 2026</p>
       </div>
     </section>
 
@@ -162,7 +162,7 @@ export const privacyMarkup = String.raw`
         <li>Right not to be subject to automated decision-making</li>
       </ul>
       <p><strong>Withdrawing your consent:</strong> You have the right to withdraw your consent at any time by contacting us at <a href="mailto:callmykin89@gmail.com">callmykin89@gmail.com</a>.</p>
-      <p><strong>Account Information</strong><br>You can review or change account information in the app where available. To permanently delete your CallMyKin account and associated data, use Settings &gt; Account &gt; Delete account in the app or see our <a href="/delete-account">Delete Account</a> page.</p>
+      <p><strong>Account Information</strong><br>You can review or change account information in the app where available. To permanently delete your CallMyKin account and associated data, open Settings &gt; Account and tap the red <strong>Delete account</strong> button in the upper-right corner, or see our <a href="/delete-account">Delete Account</a> page.</p>
 
       <h2 id="DNT">11. Controls for Do-Not-Track Features</h2>
       <p>Most web browsers include a Do-Not-Track ('DNT') feature or setting. At this stage, no uniform technology standard for recognising and implementing DNT signals has been finalised. As such, we do not currently respond to DNT browser signals.</p>

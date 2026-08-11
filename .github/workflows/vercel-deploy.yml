@@ -1,0 +1,21 @@
+name: Trigger Vercel Deploy
+
+# Vercel skips auto-deploys for commit authors not linked to the Vercel account.
+# This hook-based trigger deploys every push to main regardless of author.
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Vercel Deploy Hook
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$DEPLOY_HOOK_URL" ]; then
+            echo "::error::Repo secret VERCEL_DEPLOY_HOOK_URL is not set. Create a Deploy Hook in Vercel (Project Settings -> Git -> Deploy Hooks, branch: main) and save its URL as this secret."
+            exit 1
+          fi
+          curl -sf -X POST "$DEPLOY_HOOK_URL"

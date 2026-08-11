@@ -24,7 +24,7 @@ export const deleteAccountMarkup = String.raw`
       <div class="container">
         <a href="/" class="legal-hero__back">&larr; Back to Home</a>
         <h1>Delete Your Account</h1>
-        <p class="legal-hero__updated">Request deletion of your CallMyKin account and personal data · Last updated: August 5, 2026</p>
+        <p class="legal-hero__updated">Request deletion of your CallMyKin account and personal data · Last updated: August 11, 2026</p>
       </div>
     </section>
 
@@ -64,7 +64,7 @@ export const deleteAccountMarkup = String.raw`
       <ol>
         <li>Open the CallMyKin app on your device</li>
         <li>Go to <strong>Settings</strong> (tap the gear icon)</li>
-        <li>Open <strong>Account</strong>, then tap the red <strong>Delete account</strong> button in the upper-right corner</li>
+        <li>Tap <strong>Delete account</strong></li>
         <li>Read the deletion notice, type <strong>DELETE</strong>, and tap <strong>Delete forever</strong></li>
       </ol>
       <p>After confirmation, your CallMyKin account is permanently deleted and you are signed out.</p>

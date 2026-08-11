@@ -24,7 +24,7 @@ export const termsMarkup = String.raw`
       <div class="container">
         <a href="/" class="legal-hero__back">&larr; Back to Home</a>
         <h1>Terms of Service</h1>
-        <p class="legal-hero__updated">Last updated: August 5, 2026</p>
+        <p class="legal-hero__updated">Last updated: August 11, 2026</p>
       </div>
     </section>
 
@@ -83,7 +83,7 @@ export const termsMarkup = String.raw`
       <h3>3.4 Refunds</h3>
       <p>Refund requests are handled by Apple or Google according to their respective refund policies. Please contact the app store through which you made your purchase for refund inquiries.</p>
       <h3>3.5 Account Deletion</h3>
-      <p>You may permanently delete your CallMyKin account in Settings &gt; Account by tapping the red <strong>Delete account</strong> button in the upper-right corner, or through our <a href="/delete-account">public account-deletion page</a>. Deleting your CallMyKin account does not cancel an App Store or Google Play subscription; you must cancel billing through the store where you purchased it.</p>
+      <p>You may permanently delete your CallMyKin account in Settings &gt; <strong>Delete account</strong>, or through our <a href="/delete-account">public account-deletion page</a>. Deleting your CallMyKin account does not cancel an App Store or Google Play subscription; you must cancel billing through the store where you purchased it.</p>
 
       <h2>4. Privacy</h2>
       <p>Your use of the Services is also governed by our <a href="/privacy">Privacy Policy</a>, which describes how we collect, use, and share your personal information. By using the Services, you consent to our collection and use of personal data as outlined in the Privacy Policy.</p>
